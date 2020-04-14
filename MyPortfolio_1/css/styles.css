@@ -1,0 +1,38 @@
+body{
+  color: black;
+  font-family: Verdana, sans-serif;
+  margin: 0px;
+}
+header{
+  background-color: #efefef;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.intro{
+  background-color: chartreuse;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.myicon{
+  background-color: cyan;
+}
+
+.myicon img{
+
+}
+
+.name{
+  background-color: white;
+  display: flex;
+}
+
+.infor{
+  background-color: yellow;
+}
+
+.like{
+  background-color: violet;
+}
