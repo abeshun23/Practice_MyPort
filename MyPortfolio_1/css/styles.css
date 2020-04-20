@@ -1,38 +1,135 @@
 body{
   color: black;
   font-family: Verdana, sans-serif;
-  margin: 0px;
+  margin: 0;
 }
+
 header{
-  background-color: #efefef;
+  background-color: gainsboro;
   padding-top: 32px;
   padding-bottom: 32px;
+  background-image: url(MP.img/portuguese-sky.png);
+  background-size: cover;
 }
 
 .intro{
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
   width: 400px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 15px;
+  display: flex;
+  
 }
 
 .myicon{
-  background-color: cyan;
+  /* background-color: cyan; */
+  
 }
-
-.myicon img{
-
-}
-
 .name{
-  background-color: white;
-  display: flex;
+  padding-left: 8px;
+}
+
+.name h1{
+  /* background-color: white; */
+  font-weight: normal;
+  margin: 0;
 }
 
 .infor{
-  background-color: yellow;
+  /* background-color: yellow; */
+  }
+
+.infor p{
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.7;
 }
 
-.like{
-  background-color: violet;
+.link{
+  /* background-color: violet; */
+  text-align: center;
+  padding-left: 5px;
+}
+
+.link ul{
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.link ul li{
+  padding-right: 10px;
+}
+
+body{
+  
+}
+
+.works{
+  text-align: center;
+}
+
+.works h1{
+  padding-top: 5;
+  padding-bottom: 5;
+}
+
+.works h2{
+  font-weight: normal;
+  font-size: 20;
+}
+
+.works p{
+  width: 600;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50;
+}
+
+.contact{
+  background-color:gainsboro;
+  width: 500;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-weight: normal;
+}
+
+.contact h1{
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact p{
+  font-size: 15px;
+  margin: 0px;
+}
+
+input, textarea{
+  width: 400px;
+}
+
+input{
+  line-height: 1.5;
+}
+
+textarea{
+  line-height: 3;
+}
+
+.contact h2{
+  font-size: 15px;
+}
+
+.contact-form{
+  font-size: 15px;
+  width: 50px;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  color: gray;
 }
