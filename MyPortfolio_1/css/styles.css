@@ -22,10 +22,6 @@ header{
   
 }
 
-.myicon{
-  /* background-color: cyan; */
-  
-}
 .name{
   padding-left: 8px;
 }
@@ -35,10 +31,6 @@ header{
   font-weight: normal;
   margin: 0;
 }
-
-.infor{
-  /* background-color: yellow; */
-  }
 
 .infor p{
   margin: 0;
@@ -61,10 +53,6 @@ header{
 
 .link ul li{
   padding-right: 10px;
-}
-
-body{
-  
 }
 
 .works{
